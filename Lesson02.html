@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>HTML5 and CSS3 Fundamentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"
     </head>
 
     <body>
@@ -90,7 +91,7 @@ mit.edu<br><br>
         <li>Fourth, hopefully you can see that the specifics of HTML - and all other standards - are decided on by a body of individuals who understand what is needed and propose and debate the merits of adding or removing parts of a given specification.  You should also see the purpose for these standards - so that organizations creating hardware and software to support the World Wide Web can achieve a high degree of interoperability.</li>
 
 <li>Fifth, hopefully you can see the role that each component plays in the exchange of documents and other resources ... the web browser is responsible for interacting with the end user who requests a document by typing in a web address or clicks on a hyperlink.  It also packages up that request and begins the process of requesting the document from it's host, the computer called the web server.  The message is packaged using the HTTP protocol, which you can think of as an electronic envelope geared towards stateless request / response style transmissions between two computers.  Routers are special devices that know how to interpret the address encoded in electronic envelopes, or rather, the HTTP messages, and route them closer to their ultimate destination.  A web server is merely a computer at a given web address that is listening for HTTP requests, and if the address is valid, returns the requested document or resource using the same HTTP message addressing as a response.
-        </li>
+        </li></ol>
 
         <h2>One Final Note About Our Overview</h2>
 
@@ -100,7 +101,7 @@ mit.edu<br><br>
 
 <p>More recently, these two responsibilities - of structure and presentation - have been split in two ... HTML should define the structure of the document, and Cascading Style Sheets should control the presentation, or rather, the style or aesthetic qualities of a web page.  We'll see how this separation of responsibilities plays out throughout this course.</p>
 
-            </article>
+
             <article>
 
                 <h1>How Web Browsers Parse HTML</h1>
@@ -146,7 +147,7 @@ mit.edu<br><br>
 
 <p>Alternatively, you could take the "Progressive Enhancement" approach, meaning you start out by keeping the web page you're authoring as simple and straight forward as possible making sure the site looks as good as possible in baseline browsers ... in other words, you decide on a set of older web browsers as the baseline, make sure the web page looks good in those browsers, then add in features that are supported in newer browsers to enhance the web site.  In this way you ensure that users with older browsers still have a good experience, you focus on writing good, solid HTML code, and for those who are running newer browsers you are adding features that will simply enhance their experience.  Over time, you re-visit the web page's code, replacing those bits those older parts with those parts that were merely enhancements.  People will eventually upgrade their browsers and as they do, your baseline can creep forward.  This is an ongoing migration strategy.  Most developers agree in principle that this is the right approach, even if the implementation can be tricky at times.  You have to decide whether some of the things I'll demonstrate here are worth the price you'll pay in alienating potential users with older web browsers that don't yet support parts of HTML5 and CSS3.  You should always be testing your work in multiple web browsers across many different versions to know exactly how your web page performs.  And, do as I say, not as I do, because that is a time-consuming and therefore expensive process.  Real professionals take this seriously and I would recommend you do so, too.  You may see me cut corners at times -- do as I say, not as I do.</p>
 
-                        <aside>>If you have a captive audience, the experience is a little different.  For example, In Windows 8, HTML5 developers can rely on Internet Explorer 10's expanded HTML5 support to build user interfaces that run as Metro-style applications utilizing the WinRT API.  In this case, you know for a fact where your HTML5 will be rendered and by whom, and you are free to use the full set of HTML5 features IE10 supports without having to worry about other browser vendors and version.  Another example might be that someday you're building web-based intranet applications that will run inside of your enterprise on an Intranet.  In this case, your IT department may have standardized on a specific web browser.  If this is the case, you are free to use the HTML features supported by that specific vendor and version of web browser.</ais>
+                        <aside>If you have a captive audience, the experience is a little different.  For example, In Windows 8, HTML5 developers can rely on Internet Explorer 10's expanded HTML5 support to build user interfaces that run as Metro-style applications utilizing the WinRT API.  In this case, you know for a fact where your HTML5 will be rendered and by whom, and you are free to use the full set of HTML5 features IE10 supports without having to worry about other browser vendors and version.  Another example might be that someday you're building web-based intranet applications that will run inside of your enterprise on an Intranet.  In this case, your IT department may have standardized on a specific web browser.  If this is the case, you are free to use the HTML features supported by that specific vendor and version of web browser.</aside>
 
 
                          <h2>Conclusion</h2>
